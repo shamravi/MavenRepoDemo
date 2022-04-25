@@ -45,7 +45,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.demp.mathlib'
+                groupId = 'com.demo.mathlib'
                 artifactId = 'math_operation'
                 version = '1.0'
             }
